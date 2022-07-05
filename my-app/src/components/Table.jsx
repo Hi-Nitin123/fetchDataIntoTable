@@ -32,6 +32,7 @@ function Table() {
             <th>Url</th>
             <th>Thumbnailurl</th>
           </tr>
+
           {console.log("post:", post)}
           {post.map((data) => {
             return (
